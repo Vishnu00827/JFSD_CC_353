@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display:grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+        }
+        .product .price {
+            font-size: 18px;
+            color: #e67e22;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Products</h1>
+    <div class="container">
+        <div class="product">
+            <img src="https://chhabrasports.com/wp-content/uploads/2020/04/APH_2064-scaled-4.jpg" alt="Product 1">
+            <h3>SG English willow</h3>
+            <p>High-quality premium WOOD</p>
+            <p class="price">RS 8000\-</p>
+        </div>
+        <div class="product">
+            <img src="https://5.imimg.com/data5/DJ/WE/VR/SELLER-98090485/cricket-leather-ball-500x500.jpg" alt="Product 2">
+            <h3>SG Match ball</h3>
+            <p>Amazing product with great value.</p>
+            <p class="price">RS 899\-</p>
+        </div>
+        <div class="product">
+            <img src="https://goldensports.com.hk/wp-content/uploads/2023/01/1-SG-Aerotuff-Cricket-Helmet-with-Titanium-Grill.jpg" alt="Product 3">
+            <h3>SG Helmet</h3>
+            <p>Since 1997</p>
+            <p class="price">RS 2999\-</p>
+        </div>
+    </div>
+</body>
+</html>
